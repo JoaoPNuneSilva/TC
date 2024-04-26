@@ -1,0 +1,104 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .purple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/logo marca dagua.png');
+    background-color:#180037;
+    /* background-color: rgb(90, 0, 128); */
+    width: 40%;
+    height: 100%;
+  }
+
+  .logo-acidentes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+  }
+  
+  .black-box {
+    background-image: url('/public/fundo.png');
+    background-color: black;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .gray-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1D1D1D;
+    width: 70%;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+  }
+  
+  .login-text {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  .input-field {
+    width: 110%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  
+  .forgot-password {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .purple-button {
+    background-color: #180037;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .create-account {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .credits {
+    color: #3A3A3A;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

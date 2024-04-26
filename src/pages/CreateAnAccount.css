@@ -1,0 +1,212 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    gap: 0;
+    margin: 0;
+  }
+  
+  .purple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/logo marca dagua.png');
+    background-color:#180037;
+    /* background-color: rgb(90, 0, 128); */
+    width: 40%;
+    height: 100vh;
+  }
+
+  .logo-acidentes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+  }
+  
+  .black-box {
+    background-image: url('/public/fundo.png');
+    background-color: black;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .gray-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1D1D1D;
+    width: 70%;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+  }
+  
+  .login-text {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  .input-field {
+    width: 110%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  
+  .forgot-password {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .purple-button {
+    background-color: #180037;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .create-account {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .credits {
+    color: #3A3A3A;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .idadesexo-container {
+    display: flex;
+    width: 520px;
+  }
+
+  .idade {
+    display: flex;
+    flex-direction: column;
+  }
+
+.input-idade{
+    width: 110%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 250px;
+  }
+
+  .sexo{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: O;
+  }
+
+  .frase-sexo{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .opcoes{
+    width: 250px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .masculino{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+  }
+
+  .feminino{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+  }
+
+  /* Mobile 320x480*/
+  @media (max-width: 1080px) and (max-height: 1920px) {
+  .login-container {
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    height: auto; /* Altura proporcional/atutomática */
+    width: auto; /* Largura proporcional/atutomática */
+  }
+
+  .purple-box {
+    width: 100vh;
+    height: 30vh; 
+  }
+
+  .black-box{
+    width: 100vh;
+    height: 70vh;
+  }
+
+  .login-text {
+    color: white;
+    font-size: 50px;
+  }
+
+  .gray-box {
+    width: 45vh;
+    height: 70vh;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 90%;
+  }
+
+  .white-text {
+    color: white;
+    font-size: 50px;
+  }
+  
+
+  .opcoes {
+    flex-direction: column; /* Empilha as opções verticalmente */
+  }
+}
